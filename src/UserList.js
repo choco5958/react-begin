@@ -57,6 +57,13 @@ function UserList(){
                 ))}
             </div>
             
+            {/* 배열의 id값을 key값에 할당 후 렌더링 */}
+            <div>
+                {users.map((user)=> (
+                    <User user={user} key={user.id}/>
+                ))}
+            </div>
+            
         </div>
     )
 }
