@@ -3,13 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import App2 from './App2'
+import Counter2 from './Counter2';
+import Immer from './Immer';
 import reportWebVitals from './reportWebVitals';
+import Hello2 from './Hello2';
+import Counter3 from './Counter3';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <>
     {/* <App /> */}
-    <App2/>
+    {/* <App2/> */}
+    {/* <Counter2 /> */}
+    {/* <Immer/> */}
+    <Hello2/>
+    <Counter3/>
     </>
 );
 
